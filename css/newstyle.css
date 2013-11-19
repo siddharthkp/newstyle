@@ -7,6 +7,10 @@ body,html{
 
 /* resets */
 	
+	a:hover{
+		cursor: pointer;
+		text-decoration: none;
+	}
 	/* chosen */
 		.chzn-container a{
 			background: none !important;
@@ -480,6 +484,25 @@ body,html{
 		vertical-align: middle;
 	}
 
+	/* sidebar */
+		.sidebar{
+			width: 20%;
+			float: left;
+		}
+		.sidebar .item{
+			color: #333;
+			display: block;
+			font-size: 16px;
+			line-height: 1.5;
+			padding: 5px 20px;
+			background: url('../img/sidebar_icon.png') no-repeat left center;
+		}
+		.sidebar .item.grouptitle{
+			color: #08b;
+			font-weight: bold;
+			background: none;
+			padding: 8px 0;
+		}
 
 /* misc */
 	.loader{
